@@ -1,6 +1,6 @@
 ## scihub-cli
 
-SciHub-cli is a command line tool for downloading scientific papers from [**Sci-Hub**](https://en.wikipedia.org/wiki/Sci-Hub).
+scihub-cli is a command line tool for downloading scientific papers from [**Sci-Hub**](https://en.wikipedia.org/wiki/Sci-Hub).
 
 ## Installation & Usage
 
