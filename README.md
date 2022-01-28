@@ -9,3 +9,7 @@ git clone https://github.com/ozturkoktay/scihub-cli.git && cd scihub-cli
 pip install -r requirements.txt
 python sci-hub.py
 ```
+
+## License
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
