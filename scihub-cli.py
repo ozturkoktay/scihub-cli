@@ -108,9 +108,10 @@ def main():
     '''
     Main function that downloads the pdf file from the doi.
     '''
+    matches = ["not found", "sorry"]
     req = _get(f"{get_scihub_url()}{args.doi}")
     bs = BeautifulSoup(req.text, 'html.parser')
-    if "not found" or "sorry" in req.text.lower():
+    if any(x in req.text.lower() for x in matches):
         print(f"[!] {args.doi} not found! Check the DOI number.")
         exit(1)
     try:
