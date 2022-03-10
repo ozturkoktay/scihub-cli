@@ -7,7 +7,7 @@ scihub-cli is a command line tool for downloading scientific papers from [**Sci-
 ```
 git clone https://github.com/ozturkoktay/scihub-cli.git && cd scihub-cli
 pip install -r requirements.txt
-python sci-hub.py
+python sci-hub.py --doi DOI_NUMBER_URL
 ```
 
 ## License
